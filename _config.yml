@@ -5,18 +5,17 @@
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Davide
 middle_name:
-last_name: Carminati
-contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+last_name: Carminati, Ph.D.
+# contact_note: >
+#   You can even add a little note about which of these is the best way to reach you.
+# description: > # the ">" symbol means to ignore newlines until "footer_text:"
+#   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+# footer_text: >
+#   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+#   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>
+keywords: # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: prof_pic.jpg # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://DavideCarminati.github.io
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -150,8 +149,8 @@ collections:
   #   defaults:
   #     layout: post
   #   output: true
-  projects:
-    output: true
+  # projects:
+  #   output: true
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -197,6 +196,10 @@ exclude:
   - _posts/*
   - _projects/*
   - _pages/blog.md
+  - _pages/projects.md
+  - _pages/teaching.md
+  - _pages/profiles.md
+  - _pages/books.md
 keep_files:
   - CNAME
   - .nojekyll
@@ -269,10 +272,10 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Carminati]
+  first_name: [Davide, D.]
 
-  style: apa
+  style: ieee
   locale: en
 
   source: /_bibliography/
