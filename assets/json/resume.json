@@ -6,7 +6,7 @@
     "email": "davide.carminati@outlook.com",
     "phone": "",
     "url": "",
-    "summary": "Self-motivated, independent researcher in the field of robotics and Bayesian methods and algorithms. His research is focused on real-time stochastic models specifically designed to work on mobile robots for environment modelling by means of depth sensors and system identification. He has experience in control design and embedded system programming. Currently exploring parallel implementation of Bayesian methods for real-time robotic applications involving environment modelling and state estimation. He supervised thesis projects and activities for several Master’s students. Interested in pursuing research in robotics and Bayesian machine learning.",
+    "summary": "Self-motivated, independent research engineer in the field of robotics, computer vision and probabilistic AI. His academic research was focused on real-time Bayesian models implemented on mobile robots for environment modelling and system identification. He explored parallel implementation of Bayesian sampling methods for real-time robotic applications. He has experience in control design, optimization and embedded system programming. Currently, he is responsible for software development and algorithm design and implementation on UAVs. Interested in pursuing research in robotics and probabilistic AI.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -29,8 +29,8 @@
       "url": "",
       "startDate": "2024-11",
       "endDate": "present",
-      "summary": "Responsible for developing software and implementing Machine Learning onto robots",
-      "highlights": ["ROS2", "Neural Networks", "Artificial Intelligence"]
+      "summary": "Responsible for developing software and implementing AI algorithms onto UAVs.",
+      "highlights": ["ROS2", "Robotics", "Computer Vision", "Artificial Intelligence"]
     },
     {
       "name": "Politecnico di Torino (IT)",
